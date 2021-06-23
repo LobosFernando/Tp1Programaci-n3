@@ -1,0 +1,46 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    
+}
+.header{
+    display: flex;
+    justify-content: center;
+    background-color: hotpink;   
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to top left, #ff0156 0%, #ff09d6 100%);
+    
+}
+.activity{
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;  
+  color: black;
+  margin-bottom: 1%;
+}
+p.questions{
+    font-weight: bold;
+    font-size: 100%;
+    margin-left: 2%;
+}
+
+p.answers{
+    font-size: 90%;
+    margin-left: 1%;
+}
+
+.activity img{
+    max-height: 80%;
+    max-width: 80%;
+    align-self: center;
+    margin-bottom: 1%;
+}
+
