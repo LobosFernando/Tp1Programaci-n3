@@ -44,3 +44,21 @@ p.answers{
     margin-bottom: 1%;
 }
 
+legend{
+    margin-left: 1%;
+}
+
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+    
+}
+#num1,#num2,#submit,#operacion{
+    margin: auto;
+    margin-bottom: 1%;
+    padding: 1%;
+}
