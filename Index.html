@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="Main.js" defer></script>
+    <script src="Main.js"></script>
     <title>T3 Programación 3</title>
 </head>
 
@@ -105,20 +105,15 @@
         <p class="questions">Realizar una página con javascript (que ingrese dos numeros y seleccione de una lista desplegable, una operacion matemática: suma, resta, multiplicacion o división y realice el calculo mostrando en un mensaje alert)</p>
         <img src="Images/ActividadN20.png" alt="ActividadN20">
         <form name="calc" action="#">
-           
-            <input type="text" name="fname" id="num1" value="0">
-            
-            <input type="text" name="lname" id="num2" value="0">
-
+            <input type="text" maxlength="5" max="5" min="1" name="fname" id="num1" value="0">  
+            <input type="text" maxlength="5" max="5" min="1" name="lname" id="num2" value="0">
             <select name="Operation" id="operacion">
-                <option value="Sumar">Sumar</option>
-                <option value="Restar">Restar</option>
-                <option value="Multiplicar">Multiplicar</option>
-                <option value="Dividir">Dividir</option>
+                <option value="+">Sumar</option>
+                <option value="-">Restar</option>
+                <option value="*">Multiplicar</option>
+                <option value="/">Dividir</option>
             </select>
-
-            <input type="button" id="submit" value="Submit" onclick="mostrar()">
-            
+            <input type="button" id="submit" value="Submit" onclick="calcular()">
         </form>
     </div>
     <div class="activity">
@@ -127,5 +122,7 @@
     </div>
 
 </div>
+
+
 </body>
 </html>
