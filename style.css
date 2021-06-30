@@ -53,9 +53,13 @@ legend{
 form{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    
-    
+    flex-wrap: wrap;   
+}
+
+form legend{
+    display: flex;
+    flex-direction: column;
+    justify-items: auto;
 }
 #num1,#num2,#submit,#operacion{
     margin: auto;
