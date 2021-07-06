@@ -150,7 +150,17 @@
             <img src="Images/ActividadN21.1.png" alt="ActividadN21" />
             <img src="Images/ActividadN21.2.png" alt="ActividadN21" />
 
-            <form name="forms">
+            <form name="formu2">
+                <select name="destino">
+                    <option value="Jujuy">Jujuy</option>
+                    <option value="Mendoza">Mendoza</option>
+                    <option value="Cordoba">Cordoba</option>
+                </select>
+                <label>Desayuno</label>
+                <input type="radio" name="desayuno" id="sid">
+                <label for="sid">Si</label>
+                <input type="radio" name="desayuno" id="nod">
+                <label for="nod">No</label>
                 <fieldset>
                     <legend>Agregar paquetes</legend>
                 </fieldset>
@@ -161,7 +171,7 @@
                     <input name="jubi" type="radio" value="radiobutton" id="nov" onclick="jubil()" checked />
                     <label for="nov">No</label>
                     <br />
-                    <input name="edad" type="text" id="age" value="borrrar" disabled />
+                    <input name="edad" type="text" id="age" value="0" disabled />
                     <br />
                     <input value="Calcular" type="button" />
                 </fieldset>

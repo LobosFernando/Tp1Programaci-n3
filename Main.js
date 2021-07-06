@@ -7,10 +7,10 @@ function calcular() {
 }
 
 function jubil() {
-    if (forms.jubi[0].checked) {
-        forms.edad.disabled = false;
+    if (formu2.jubi[0].checked) {
+        formu2.edad.disabled = false;
     } else {
-        forms.edad.disabled = true;
+        formu2.edad.disabled = true;
     }
 }
 

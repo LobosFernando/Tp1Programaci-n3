@@ -51,10 +51,19 @@ legend{
 
 
 form{
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
-    flex-wrap: wrap;   
+    flex-wrap: nowrap;
+    align-content: stretch;
+
 }
+form,  select  label{
+    margin: auto;
+    flex-wrap: nowrap; 
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
 
 form legend{
     display: flex;
