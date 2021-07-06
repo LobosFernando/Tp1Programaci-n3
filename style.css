@@ -1,82 +1,149 @@
-*{
-    padding: 0%;
-    margin: 0%;
-    
+* {
+  padding: 0%;
+  margin: 0%;
 }
-.header{
-    display: flex;
-    justify-content: center;
-    background-color: hotpink;   
+.header {
+  display: flex;
+  justify-content: center;
+  background-color: #8f8f8f;
 }
 
-.content{
-    display: flex;
-    flex-direction: column;
-    background: linear-gradient(to top left, #8f8f8f 0%, #fafafa 100%);
-    
+.content {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to top left, #8f8f8f 0%, #fafafa 100%);
 }
-.activity{
-    margin: 5px;
-    padding: 5px;
-    display: flex;
-    flex-direction: column;
+.activity {
+  margin: 5px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
 }
-p{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;  
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: black;
   margin-bottom: 1%;
 }
-p.questions{
-    font-weight: bold;
-    font-size: 100%;
-    margin-left: 2%;
+p.questions {
+  font-weight: bold;
+  font-size: 100%;
+  margin-left: 2%;
 }
 
-p.answers{
-    font-size: 90%;
-    margin-left: 1%;
+p.answers {
+  font-size: 90%;
+  margin-left: 1%;
+}
+li {
+  margin-left: 5%;
+  font-weight: bold;
 }
 
-.activity img{
-    max-height: 80%;
-    max-width: 80%;
-    align-self: center;
-    margin-bottom: 1%;
+.activity img {
+  max-height: 80%;
+  max-width: 80%;
+  align-self: center;
+  margin-bottom: 1%;
 }
 
-legend{
-    margin-left: 1%;
+legend {
+  margin-left: 1%;
 }
 
-
-
-form{
-    display: inline-flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-content: stretch;
-
+form {
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: stretch;
 }
-form,  select  label{
-    margin: auto;
-    flex-wrap: nowrap; 
-    justify-content: center;
-    flex-direction: row-reverse;
+form fieldset {
+  flex-direction: row;
+  align-content: stretch;
+  flex-wrap: nowrap;
 }
 
+form legend {
+  display: flex;
+  flex-direction: column;
+  justify-items: auto;
+}
+#num1,
+#num2,
+#submit,
+#operacion,
+#desti {
+  margin: auto;
+  margin-bottom: 1%;
+  padding: 1%;
+}
+.divisor {
+  background-color: darkblue;
+  color: whitesmoke;
+  padding: 5px;
+}
 
-form legend{
-    display: flex;
-    flex-direction: column;
-    justify-items: auto;
+.divisor > p {
+  color: whitesmoke;
+
+  border-color: red;
+  border-style: solid;
+  background-color: cadetblue;
 }
-#num1,#num2,#submit,#operacion{
-    margin: auto;
-    margin-bottom: 1%;
-    padding: 1%;
+.alineado {
+  text-align: center;
 }
-.divisor{
+
+.act14 {
+  background-color: white;
+}
+.act14 button {
+  color: white;
+  background-color: green;
+  font-family: Arial;
+  margin: 20px;
+  padding: 5px;
+  font-size: medium;
+}
+
+#derecha {
+  float: right;
+}
+.div-letras {
+  width: 100%;
+  height: 100px;
+  background-color: white;
+}
+.fondo {
+  background-color: white;
+  height: 20%;
+  width: 100%;
+
+
+}
+.botones {
+  float: left;
+  border: none;
+  display: block;
+  outline: 0;
+  
+  background-color: #6b6b6bad;
+  margin: 0px;
+  padding: 10px;
+  font-size: 17px;
+
+}
+.botones:hover {
+  background-color: green;
+}
+
+/*
+.posicion{
+    height: 500px;
+    width: 100%;
     background-color: darkblue;
-    color: whitesmoke;
-    padding: 5px;
 }
+
+.posicion > p{
+    color: whitesmoke;
+}
+*/
