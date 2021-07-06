@@ -150,9 +150,12 @@
             <img src="Images/ActividadN21.1.png" alt="ActividadN21" />
             <img src="Images/ActividadN21.2.png" alt="ActividadN21" />
 
-            <form name="forms">
+            <form name="forms" id="formita">
                 <fieldset>
                     <legend>Agregar paquetes</legend>
+                    <input type="checkbox" name="paquetes" id="Hotel" value="Hotel">
+                    <input type="checkbox" name="paquetes" id="Excursion" value="Excursión">
+                    <input type="checkbox" name="paquetes" id="Teatro" value="Teatro">
                 </fieldset>
                 <fieldset>
                     <legend>Es usted jubilado</legend>
@@ -161,7 +164,7 @@
                     <input name="jubi" type="radio" value="radiobutton" id="nov" onclick="jubil()" checked />
                     <label for="nov">No</label>
                     <br />
-                    <input name="edad" type="text" id="age" value="borrrar" disabled />
+                    <input type="number" name="edad"  id="age" value="0" pattern="[0-9]+" onkeypress="return event.charCode >= 48 && event.charCode <= 57" required disabled />
                     <br />
                     <input value="Calcular" type="button" />
                 </fieldset>
