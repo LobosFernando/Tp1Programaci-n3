@@ -10,7 +10,7 @@ function jubil() {
     if (forms.jubi[0].checked) { // document.getElementById("siv") ahora funciona de las 2 maneras
         forms.edad.disabled = false;
     } else {
-        forms.edad.disabled = true;
+        formu2.edad.disabled = true;
     }
 }
 
